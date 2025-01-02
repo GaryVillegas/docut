@@ -1,0 +1,7 @@
+{
+  "name": "docut",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
