@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true">
+  <swiper-container [loop]="false" #swiper>
+    <swiper-slide>
+      <img src="" alt="Peluquería cercana" />
+      <h2 class="title">Encuentra tu peluquería cercana</h2>
+      <p class="paragraph">Explora peluquerías cercanas rápidamente.</p>
+      <div class="navigation-button">
+        <ion-button fill="clear" (click)="skip()">Saltar</ion-button>
+        <ion-button (click)="goNext()" shape="round" class="next-button"
+          ><ion-icon name="chevron-forward-outline" slot="icon-only"></ion-icon
+        ></ion-button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="" alt="Agenda tus cortes" />
+      <h2 class="title">Agenda tus cortes más fácil</h2>
+      <p class="paragraph">Reserva citas en minutos.</p>
+      <div class="navigation-button">
+        <ion-button fill="clear" (click)="skip()">Saltar</ion-button>
+        <ion-button (click)="goNext()" shape="round" class="next-button"
+          ><ion-icon name="chevron-forward-outline" slot="icon-only"></ion-icon
+        ></ion-button>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <img src="" alt="Registra tu peluquería" />
+      <h2 class="title">Registra tu propia peluquería</h2>
+      <p class="paragraph">Llega a más clientes fácilmente.</p>
+      <div class="navigation-button">
+        <ion-button fill="clear" (click)="skip()">Saltar</ion-button>
+        <ion-button (click)="goNext()" shape="round" class="next-button"
+          ><ion-icon name="chevron-forward-outline" slot="icon-only"></ion-icon
+        ></ion-button>
+      </div>
+    </swiper-slide>
+    <swiper-slide> </swiper-slide>
+  </swiper-container>
+</ion-content>
